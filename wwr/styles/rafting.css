@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=YourSelectedFont');
+
+body {
+  background-color: #0c0c0c;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+}
+.column {
+  float: left;
+  box-sizing: border-box;
+  border-bottom: 2px solid #78c5d7;
+}
+
+h1 {
+  color: #fff;
+  font-family: "Gruppo", sans-serif;
+  font-size: 40px;
+}
+
+img {
+  border-radius: 10px;
+}
+nav {
+  overflow: hidden;
+  padding-top: 6%;
+  font-family:  sans-serif;
+  font-size: 22px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: #78c5d7;
+  color: #fff;
+  border-radius: 10%;
+}
+
+button {
+  border-radius: 10px;
+  background-color: #78c5d7;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  padding: 20px 40px 20px 40px;
+}
+button:hover {
+  background-color: #fff;
+  color: #78c5d7;
+  font-size: 20px;
+}
+
+.flex-container {
+display: flex;
+}
+
+.hero {
+  float: left;
+  box-sizing: border-box;
+
+}
+
+.experience {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto;
+  border: 1px solid #78c5d7;
+  border-radius: 10px;
+}
+
+.text_client {
+  margin-left: 20px; 
+  color: #fff;
+  font-family: "Gruppo", sans-serif;
+  font-size: 30px;
+}
+
+.history {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto;
+  border: 1px solid #78c5d7;
+  border-radius: 10px;
+}
+
+.text_history {
+  margin-right: 20px; 
+  color: #fff;
+  font-family: "Gruppo", sans-serif;
+  font-size: 30px;
+}
+
+.img_history {
+  float: left;
+  margin-right: 20px;
+  max-width: 700px
+}
+
+.adventure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.img_adventure {
+  display: inline-block;
+  width: 250px; 
+  height: auto;
+  margin-right: 10px; 
+}
+
+footer {
+  text-align: center;
+  background-color: #0c0c0c;
+  padding: 20px;
+  font-family: "Gruppo", sans-serif;
+}
+
+footer p {
+  color: white;
+  margin: 0;
+  background-color: #0c0c0c;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.social-links img {
+  width: 30px;
+  height: 30px;
+}
+
