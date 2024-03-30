@@ -12,7 +12,7 @@ body {
   border-bottom: 2px solid #78c5d7;
 }
 
-h1 {
+h1, h2 {
   color: #fff;
   font-family: "Gruppo", sans-serif;
   font-size: 40px;
@@ -67,8 +67,17 @@ display: flex;
 }
 
 .hero {
+  position: relative;
   float: left;
   box-sizing: border-box;
+}
+
+.image-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: 430px; 
 
 }
 
@@ -88,7 +97,7 @@ display: flex;
   font-size: 30px;
 }
 
-.history {
+.history_1 {
   display: flex;
   align-items: center;
   width: 85%;
