@@ -6,13 +6,15 @@ body {
   font-size: 25px;
   font-weight: 900;
 }
+
 .column {
   float: left;
   box-sizing: border-box;
   border-bottom: 2px solid #78c5d7;
 }
 
-h1, h2 {
+h1,
+h2 {
   color: #fff;
   font-family: "Gruppo", sans-serif;
   font-size: 40px;
@@ -21,12 +23,14 @@ h1, h2 {
 img {
   border-radius: 10px;
 }
+
 nav {
   overflow: hidden;
   padding-top: 6%;
-  font-family:  sans-serif;
+  font-family: sans-serif;
   font-size: 22px;
 }
+
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -42,6 +46,7 @@ nav a {
   padding: 14px 16px;
   text-decoration: none;
 }
+
 nav a:hover {
   background-color: #78c5d7;
   color: #fff;
@@ -54,8 +59,9 @@ button {
   font-weight: bold;
   font-size: 20px;
   color: white;
-  padding: 20px 40px 20px 40px;
+  padding: 20px 40px;
 }
+
 button:hover {
   background-color: #fff;
   color: #78c5d7;
@@ -63,13 +69,16 @@ button:hover {
 }
 
 .flex-container {
-display: flex;
+  display: flex;
 }
 
 .hero {
   position: relative;
   float: left;
   box-sizing: border-box;
+  border: 1px solid #78c5d7;
+  border-radius: 10px;
+  margin-top: 20px;
 }
 
 .image-hero {
@@ -77,8 +86,7 @@ display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin-left: 430px; 
-
+  margin-left: 430px;
 }
 
 .experience {
@@ -86,53 +94,63 @@ display: flex;
   align-items: center;
   width: 85%;
   margin: 0 auto;
-  border: 1px solid #78c5d7;
-  border-radius: 10px;
 }
 
 .text_client {
-  margin-left: 20px; 
+  margin-left: 20px;
   color: #fff;
   font-family: "Gruppo", sans-serif;
   font-size: 30px;
 }
 
-.history_1 {
+.grid-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.column_h {
   display: flex;
   align-items: center;
-  width: 85%;
+  width: 33.33%;
   margin: 0 auto;
-  border: 1px solid #78c5d7;
-  border-radius: 10px;
+  flex: 1;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.text_history {
-  margin-right: 20px; 
+.column_h p {
   color: #fff;
   font-family: "Gruppo", sans-serif;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .img_history {
-  float: left;
-  margin-right: 20px;
-  max-width: 700px
+  max-width: 100%;
+  height: auto;
 }
 
 .adventure {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction:column;
   width: 100%;
   margin: 0 auto;
 }
 
 .img_adventure {
   display: inline-block;
-  width: 250px; 
+  width: 250px;
   height: auto;
-  margin-right: 10px; 
+  margin-right: 10px;
+}
+
+.cap_adventure {
+  color: #fff;
+  font-family: "Gruppo", sans-serif;
+  font-size: 30px;
+  margin-right: 10px;
 }
 
 footer {
@@ -148,16 +166,23 @@ footer p {
   background-color: #0c0c0c;
 }
 
+.footer_1 {
+  padding-left: 40px;
+  width: 100%;
+  margin-top: 35px;
+}
+
 .social-links {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
   margin-top: 10px;
 }
 
 .social-links a {
   display: inline-block;
   margin: 0 5px;
+
 }
 
 .social-links img {
@@ -165,3 +190,16 @@ footer p {
   height: 30px;
 }
 
+.footeer {
+  display: flex;
+  align-items: left;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.footeer11 {
+  display: flex;
+  align-items: left;
+  width: 20%;
+  margin: 0 auto;
+}
