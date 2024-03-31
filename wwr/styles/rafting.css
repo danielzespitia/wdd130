@@ -203,3 +203,86 @@ footer p {
   width: 20%;
   margin: 0 auto;
 }
+
+/* Contact Page */
+
+/* Info */
+
+.contact-info  {
+  position:relative;
+  float: left;
+  width: 100%;
+}
+
+.contact-info-2 {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.contact-text h6,h5,h4,h3,p {
+  margin-left: 20px;
+  color: #fff;
+  font-family: "Gruppo", sans-serif;
+  font-size: 20px;
+}
+
+
+/* Employee */
+
+.contact-employee {
+  width: 100%;
+}
+
+.employee-container {
+  display: flex;
+  justify-content: center;
+}
+
+.employee-img {
+  text-align: center;
+  margin: 0 10px;
+}
+
+.employee-img img {
+  border-radius: 10px;
+  height: 200px;
+  width: 200px;
+}
+
+/* Form */
+
+.contact-form {
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 50%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.contact-form textarea {
+  height: 100px;
+}
+
+.contact-form .submit-button {
+  background-color: #78c5d7;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.checkbox-container {
+  display: inline-block;
+  width: 100%;
+}
