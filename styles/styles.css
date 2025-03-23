@@ -23,7 +23,7 @@ aside {
 }
 
 /* I put a class on the image because if we do more aside in the code I would take that same style in those other images, so it would be something more direct. */
-/* Aside img */
+Aside img
 
 .zulia-img {
     width: 200px; /* i liked the size of the image 100% */
