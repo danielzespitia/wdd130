@@ -1,0 +1,48 @@
+main {
+    width: 50%;
+    margin: 0 0 10px 20px;
+    padding: 20px;
+    font-family: gruppo, Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    background-color: #f9f9f9;
+
+}
+
+aside {
+    width: 50%;
+    margin: 0 0 20px 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: #333;
+    text-align: center
+}
+
+/* I put a class on the image because if we do more aside in the code I would take that same style in those other images, so it would be something more direct. */
+/* Aside img */
+
+.zulia-img {
+    width: 200px; /* i liked the size of the image 100% */
+    height: auto;
+    border-radius: 10px
+}
+
+.title-zulia-1 {
+    font-size: 40px;
+    color: #333;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+    text-align: center;
+    text-transform: uppercase
+}
+
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+  }
