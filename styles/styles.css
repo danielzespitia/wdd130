@@ -18,6 +18,7 @@ aside {
     border: 1px solid black;
     border-radius: 10px;
     color: #333;
+    text-align: center; /* Semicolon added */
 }
 
 /* I put a class on the image because if we do more aside in the code I would take that same style in those other images, so it would be something more direct. */
