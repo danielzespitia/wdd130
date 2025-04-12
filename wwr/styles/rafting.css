@@ -1,10 +1,13 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Fira+Sans:wght@400;700&display=swap');
+
 /* Color and font variables */
 :root {
     --primary-color: #0077cc;
     --accent1-color: #333;
     --accent2-color: #fff;
-    --body-font: 'Arial', sans-serif;
-    --heading-font: 'Georgia', serif;
+    --body-font: 'Fira Sans', sans-serif; /* Use Fira Sans for body text */
+    --heading-font: 'Merriweather', serif; /* Use Merriweather for headings */
 }
 
 /* Reset styles */
