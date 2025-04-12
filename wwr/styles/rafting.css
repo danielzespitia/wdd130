@@ -23,24 +23,46 @@ body {
     color: var(--accent1-color);
 }
 
-header, main, footer {
-    width: 840px;
-    margin: 0 auto;
-}
 
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
-nav, p, section, article {
-    margin: 16px;
-    padding: 8px;
+/* Header styles */
+header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    padding: 16px;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
 }
 
-/* Hero Section */
+header .logo {
+    width: 100px;
+}
+
+nav ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--accent2-color);
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero section */
 .hero {
     position: relative;
+    text-align: center;
 }
 
 .hero img {
@@ -49,33 +71,70 @@ nav, p, section, article {
     height: auto;
 }
 
-.hero h1 {
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: var(--accent2-color);
-}
-
 .hero article {
     position: absolute;
     bottom: 20px;
-    left: 20px;
+    left: 50%;
+    transform: translateX(-50%);
     background-color: rgba(255, 255, 255, 0.8);
     padding: 16px;
     border-radius: 8px;
+    width: 80%;
 }
 
-.hero article img {
-    float: right;
-    width: 125px;
-    margin-left: 16px;
+/* History section */
+.history {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 16px;
+    padding: 16px;
 }
 
-/* Footer */
-footer .socialmedia a {
-    text-decoration: none;
+.history img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Adventures section */
+.adventures {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+    padding: 16px;
+    text-align: center;
+}
+
+.adventures figure {
+    margin: 0;
+}
+
+.adventures img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.adventures figcaption {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: var(--accent1-color);
+}
+
+/* Footer styles */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
+footer .socialmedia {
+    display: flex;
+    gap: 16px;
+}
+
+footer .socialmedia img {
+    width: 24px;
+    height: 24px;
 }
