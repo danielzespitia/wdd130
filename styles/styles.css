@@ -10,24 +10,27 @@ main {
 
 }
 
+main img {
+    width: 150px;
+    height: auto;
+}
+
 aside {
-    width: 50%;
-    margin: 0 0 20px 20px;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border: 1px solid black;
-    border-radius: 10px;
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    background-color: #eee;
     color: #333;
-    text-align: center; /* Semicolon added */
+    text-align: center;
 }
 
 /* I put a class on the image because if we do more aside in the code I would take that same style in those other images, so it would be something more direct. */
 /* Aside img */
 
-aside img { /* Replacement of .zulia-img with aside img */
-    width: 200px; 
+aside img {
+    width: 200px;
     height: auto;
-    border-radius: 10px
 }
 
 .title-zulia-1 {
@@ -39,9 +42,12 @@ aside img { /* Replacement of .zulia-img with aside img */
     text-transform: uppercase
 }
 
+p {
+    padding: 0;
+}
 
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
- }
+}
