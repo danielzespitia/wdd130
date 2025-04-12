@@ -65,26 +65,46 @@ nav a:hover {
 /* Hero Section */
 .hero {
     text-align: center;
-    padding: 32px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 20px 2%; 
+    width: 96%; 
+    box-sizing: border-box;
 }
 
 .hero h1 {
     font-family: var(--heading-font);
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: var(--primary-color);
     margin-bottom: 16px;
 }
 
-.hero .intro {
+.hero-content {
+    background-color: #fff; /* White background for the inner box */
+    padding: 16px;
+    border-radius: 8px; /* Rounded corners for the inner box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     display: flex;
-    justify-content: space-between; /* Align text and image horizontally */
-    align-items: center;
-    gap: 16px;
+    flex-direction: column; /* Stack the paragraph and image vertically */
+    align-items: center; /* Center the content horizontally */
+    gap: 16px; /* Space between the paragraph and the image */
+    width: 90%; /* Limit the width of the inner box */
+    margin: 20px 2%; 
 }
 
-.hero .intro img {
-    width: 50%; /* Image takes half the width */
-    border-radius: 8px;
+.hero-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--accent1-color);
+    text-align: justify; /* Justify the text for better readability */
+}
+
+.hero-content img {
+    width: 100%; /* Make the image responsive */
+    max-width: 300px; /* Limit the maximum width of the image */
+    border-radius: 8px; /* Rounded corners for the image */
 }
 
 /* History Section */
